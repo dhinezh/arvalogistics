@@ -27,9 +27,14 @@ NAVIGATION
   background: #fff;
   box-shadow: 0 0 0 1px #ededed;
 }
-
+.navbar-nav>li:not(:last-child) {
+  margin-right: 10px;
+}
 .navbar-default .navbar-nav>li>a {
   color: #7b8a97;
+}
+.navbar-default .navbar-nav>li>a.btn-primary {
+  color: #fff;
 }
 
 .navbar-nav>li>a {
@@ -44,6 +49,11 @@ NAVIGATION
 .navbar-default .navbar-nav>.active>a:focus {
   color: #fff;
   background-color: #65d3e3;
+}
+.navbar-default .navbar-nav>li>a.btn-primary:hover,
+.navbar-default .navbar-nav>li>a.btn-primary:focus {
+  background-color: #333;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-nav>.open>a, 

@@ -45,49 +45,6 @@ jQuery(function($) {
   });
 
   // -------------------------------------------------------------
-  // Menu Search Button
-  // -------------------------------------------------------------
-
-  $(function() {
-    $('a[href="#search"]').on('click', function(event) {
-      event.preventDefault();
-      $('#search').addClass('open');
-      $('#search > form > input[type="search"]').focus();
-    });
-
-    $('#search, #search button.close').on('click keyup', function(event) {
-      if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
-        $(this).removeClass('open');
-      }
-    });
-  });
-
-  // -------------------------------------------------------------
-  // Magnific  Popup
-  // -------------------------------------------------------------
-
-  (function() {
-    $('.img-link').magnificPopup({
-      gallery: {
-        enabled: true
-      },
-      removalDelay: 300, // Delay in milliseconds before popup is removed
-      mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-      type: 'image'
-    });
-  })();
-
-  // -------------------------------------------------------------
-  // Language Select JS
-  // -------------------------------------------------------------
-
-  (function() {
-    [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
-      new SelectFx(el);
-    });
-  })();
-
-  // -------------------------------------------------------------
   // OffCanvas
   // -------------------------------------------------------------
 
@@ -145,50 +102,6 @@ jQuery(function($) {
       owl.trigger('prev.owl.carousel', [ 300 ]);
     });
   })();
-
-  //-------------------------------------------------------
-  // counter
-  //-------------------------------------------------------
-  $('.count-description').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
-    if (visible) {
-      $(this).find('.timer').each(function() {
-        var $this = $(this);
-        $({ Counter: 0 }).animate(
-          { Counter: $this.text() },
-          {
-            duration: 2000,
-            easing: 'swing',
-            step: function() {
-              $this.text(Math.ceil(this.Counter));
-            }
-          }
-        );
-      });
-      $(this).unbind('inview');
-    }
-  });
-
-  //-------------------------------------------------------
-  // about page counter
-  //-------------------------------------------------------
-  $('.company-in-number').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
-    if (visible) {
-      $(this).find('.timer').each(function() {
-        var $this = $(this);
-        $({ Counter: 0 }).animate(
-          { Counter: $this.text() },
-          {
-            duration: 2000,
-            easing: 'swing',
-            step: function() {
-              $this.text(Math.ceil(this.Counter));
-            }
-          }
-        );
-      });
-      $(this).unbind('inview');
-    }
-  });
 
   // -------------------------------------------------------------
   // Detect IE version
@@ -425,40 +338,6 @@ jQuery(function($) {
       $('#cssMapModal').on('shown.bs.modal', function() {
         google.maps.event.trigger(map, 'resize');
         map.setCenter(new google.maps.LatLng($latitude, $longitude));
-      });
-    }
-  })();
-
-  // Twitter Feed on Footer Widget
-  (function() {
-    var twitterConfig = {
-      id: '567185781790228482', //put your Widget ID here
-      domId: 'twitterWidget',
-      maxTweets: 3,
-      enableLinks: true,
-      showUser: false,
-      showTime: true,
-      showInteraction: false,
-      customCallback: handleTweets
-    };
-    twitterFetcher.fetch(twitterConfig);
-
-    function handleTweets(tweets) {
-      var x = tweets.length;
-      var n = 0;
-      var html = '';
-      while (n < x) {
-        html += '<div class="item">' + tweets[n] + '</div>';
-        n++;
-      }
-      $('.twitter-widget').html(html);
-      $('.twitter_retweet_icon').html('<i class="fa fa-retweet"></i>');
-      $('.twitter_reply_icon').html('<i class="fa fa-reply"></i>');
-      $('.twitter_fav_icon').html('<i class="fa fa-star"></i>');
-      $('.twitter-widget').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true
       });
     }
   })();

@@ -6,7 +6,9 @@
     header( 'Content-type: application/json' );
 
 
-    $to         = 'niamul@uiCookies';
+    $to1         = 'thiyagu@arvalogistics.com';
+    $to2         = 'mohanbabu@arvalogistics.com';
+    $to3         = 'prakasam@arvalogistics.com';
 
     $email_template = 'simple.html';
 
@@ -64,7 +66,7 @@
 
     $contents =  strtr($templateContents, $templateTags);
 
-    if ( mail( $to, $subject, $contents, $headers ) ) {
+    if ( mail( $to1, $subject, $contents, $headers ) && mail( $to2, $subject, $contents, $headers ) && mail( $to3, $subject, $contents, $headers ) ) {
         $result = array( 'response' => 'success', 'message'=>'<strong>Success!</strong> Mail Sent.' );
     } else {
         $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong> Cann\'t Send Mail.'  );
