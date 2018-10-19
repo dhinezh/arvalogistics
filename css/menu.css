@@ -282,7 +282,7 @@ li.dropdown > .submenu-wrapper.no-pointer-events {
 }
 
 li.dropdown > .submenu-wrapper > .submenu-inner {
-  margin-top: 25px;
+  margin-top: 15px;
   opacity: 0;
   filter: alpha(opacity=0);
  /* For IE8 and earlier */

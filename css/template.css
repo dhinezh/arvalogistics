@@ -621,13 +621,10 @@ SECTION
 }
 
 .top-bar .overlay-bg {
-  padding: 8px 0;
+  padding: 5px 0;
 }
 
 /*call-to-action*/
-.call-to-action {
-}
-
 .call-to-action ul li a {
   font-size: 12px;
   color: #fff;
@@ -644,12 +641,11 @@ SECTION
 
 
 /*social-links*/
-.social-links {
-}
 
 .social-links li {
   padding-right: 2px;
   padding-left: 2px;
+  font-size: 12px;
 }
 
 .social-links li a {
@@ -660,21 +656,8 @@ SECTION
   color: #65d3e3;
 }
 
-.social-links i {
-  width: 30px;
-  height: 30px;
-  font-size: 12px;
-  line-height: 30px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-}
-
 .top-bar .social-links i {
-  width: 25px;
-  height: 25px;
-  font-size: 10px;
-  line-height: 25px;
+  margin-right: 10px;
 }
 
 .social-share ul li a {
