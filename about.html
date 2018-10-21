@@ -1,260 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Unship</title>
-    <!-- Web Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Flaticon CSS -->
-    <link href="fonts/flaticon/flaticon.css" rel="stylesheet">
-    <!-- font-awesome CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Offcanvas CSS -->
-    <link href="css/hippo-off-canvas.css" rel="stylesheet">
-    <!-- animate CSS -->
-    <link href="css/animate.css" rel="stylesheet">
-    <!-- language CSS -->
-    <link href="css/language-select.css" rel="stylesheet">
-    <!-- owl.carousel CSS -->
-    <link href="owl.carousel/assets/owl.carousel.css" rel="stylesheet">
-    <!-- magnific-popup -->
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <!-- Main menu -->
-    <link href="css/menu.css" rel="stylesheet">
-    <!-- Template Common Styles -->
-    <link href="css/template.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
-    <script src="js/vendor/modernizr-2.8.1.min.js"></script>
-    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="js/vendor/html5shim.js"></script>
-    <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->
-  </head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="website for logistics">
+		<meta name="author" content="Dhinesh S">
+		<title>Arva Logistics</title>
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+		<!-- Web Fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css">
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Flaticon CSS -->
+		<link href="fonts/flaticon/flaticon.css" rel="stylesheet">
+		<!-- font-awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- Offcanvas CSS -->
+		<link href="css/hippo-off-canvas.css" rel="stylesheet">
+		<!-- animate CSS -->
+		<link href="css/animate.css" rel="stylesheet">
+		<!-- owl.carousel CSS -->
+		<link href="owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+		<!-- Main menu -->
+		<link href="css/menu.css" rel="stylesheet">
+		<!-- Template Common Styles -->
+		<link href="css/template.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<!-- Responsive CSS -->
+		<link href="css/responsive.css" rel="stylesheet">
+		<script src="js/vendor/modernizr-2.8.1.min.js"></script>
+		<!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="js/vendor/html5shim.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<![endif]-->
+	</head>
   <body id="page-top">
     <div id="st-container" class="st-container">
       <div class="st-pusher">
         <div class="st-content">
-          <header class="header">
-            <nav class="top-bar">
-              <div class="overlay-bg">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                      <div class="call-to-action">
-                        <ul class="list-inline">
-                          <li><a href="#"><i class="fa fa-phone"></i> 1-800-987-654</a></li>
-                          <li><a href="#"><i class="fa fa-envelope"></i> admin@domain.com</a></li>
-                        </ul>
-                      </div>
-                      <!-- /.call-to-action -->
-                    </div>
-                    <!-- /.col-sm-6 -->
-                    <div class="col-sm-6 hidden-xs">
-                      <div class="topbar-right">
-                        <div class="lang-support pull-right">
-                          <select class="cs-select cs-skin-elastic">
-                            <option value="" disabled selected>Language</option>
-                            <option value="united-kingdom" data-class="flag-uk">English</option>
-                            <option value="france" data-class="flag-france">French</option>
-                            <option value="spain" data-class="flag-spain">Spanish</option>
-                            <option value="south-africa" data-class="flag-bd">Bengali</option>
-                          </select>
-                        </div>
-                        <ul class="social-links list-inline pull-right">
-                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                          <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                        </ul>
-                      </div>
-                      <!-- /.social-links -->
-                    </div>
-                    <!-- /.col-sm-6 -->
-                  </div>
-                  <!-- /.row -->
-                </div>
-                <!-- /.container -->
-              </div>
-              <!-- /.overlay-bg -->
-            </nav>
-            <!-- /.top-bar -->
-            <div id="search">
-              <button type="button" class="close">×</button>
-              <form>
-                <input type="search" value="" placeholder="type keyword(s) here" />
-                <button type="submit" class="btn btn-primary">Search</button>
-              </form>
-            </div>
-            <nav class="navbar navbar-default" role="navigation">
-              <div class="container mainnav">
-                <div class="navbar-header">
-                  <h1 class="logo"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a></h1>
-                  <!-- offcanvas-trigger -->
-                  <button type="button" class="navbar-toggle collapsed pull-right" >
-                  <span class="sr-only">Toggle navigation</span>
-                  <i class="fa fa-bars"></i>
-                  </button>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-collapse">
-                  <span class="search-button pull-right"><a href="#search"><i class="fa fa-search"></i></a></span>
-                  <ul class="nav navbar-nav navbar-right">
-                    <!-- Home -->
-                    <li class="dropdown">
-                      <a href="index.html">Home <span class="fa fa-angle-down"></span></a>
-                      <!-- submenu-wrapper -->
-                      <div class="submenu-wrapper">
-                        <div class="submenu-inner">
-                          <ul class="dropdown-menu">
-                            <li><a href="index2.html">Home2</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <!-- /submenu-wrapper -->
-                    </li>
-                    <!-- /Home -->
-                    <!-- Pages -->
-                    <li class="dropdown active">
-                      <a href="#">Pages <span class="fa fa-angle-down"></span></a>
-                      <!-- submenu-wrapper -->
-                      <div class="submenu-wrapper">
-                        <div class="submenu-inner">
-                          <ul class="dropdown-menu">
-                            <li class="active"><a href="about.html">About</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="our-people.html">Our people</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="faq.html">FAQ Page</a></li>
-                            <li><a href="typography.html">Typography</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <!-- /submenu-wrapper -->
-                    </li>
-                    <!-- /Pages -->
-                    <!-- Services -->
-                    <li class="dropdown">
-                      <a href="#">Services <span class="fa fa-angle-down"></span></a>
-                      <!-- submenu-wrapper -->
-                      <div class="submenu-wrapper">
-                        <div class="submenu-inner">
-                          <ul class="dropdown-menu">
-                            <li><a href="air.html">Air transportation</a></li>
-                            <li><a href="marine.html">Marine transportation</a></li>
-                            <li><a href="moving.html">Moving & storage</a></li>
-                            <li><a href="shipping.html">Shipping & operations</a></li>
-                            <li><a href="transportation.html">Transportation logistics</a></li>
-                            <li><a href="trucking.html">Trucking</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <!-- /submenu-wrapper -->
-                    </li>
-                    <!-- MEGA MENU -->
-                    <li class="dropdown mega-fw has-megamenu">
-                      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Features <span class="fa fa-angle-down"></span></a>
-                      <!-- megamenu-wrapper -->
-                      <div class="submenu-wrapper megamenu-wrapper">
-                        <div class="submenu-inner megamenu-inner">
-                          <ul class="dropdown-menu">
-                            <li>
-                              <div class="mega-content">
-                                <div class="row">
-                                  <div class="col-sm-3 mega-col">
-                                    <ul>
-                                      <li class="dropdown-header">Features</li>
-                                      <li><a href="#">100% Responsive</a></li>
-                                      <li><a href="#">Animations</a></li>
-                                      <li><a href="#">Bootstrap 3+</a></li>
-                                      <li><a href="#">Valid Markups</a></li>
-                                      <li><a href="#">Mega Menu</a></li>
-                                      <li><a href="#">Free Supports And Update</a></li>
-                                    </ul>
-                                  </div>
-                                  <!-- /.col -->
-                                  <div class="col-sm-3 mega-col">
-                                    <ul>
-                                      <li class="dropdown-header">Pages</li>
-                                      <li><a href="about.html">About</a></li>
-                                      <li><a href="service.html">Service</a></li>
-                                      <li><a href="our-people.html">Our people</a></li>
-                                      <li><a href="career.html">Career</a></li>
-                                      <li><a href="faq.html">FAQ Page</a></li>
-                                      <li><a href="typography.html">Typography</a></li>
-                                    </ul>
-                                  </div>
-                                  <!-- /.col-->
-                                  <div class="col-sm-3 mega-col">
-                                    <ul>
-                                      <li class="dropdown-header">Services</li>
-                                      <li><a href="air.html">Air transportation</a></li>
-                                      <li><a href="marine.html">Marine transportation</a></li>
-                                      <li><a href="moving.html">Moving & storage</a></li>
-                                      <li><a href="shipping.html">Shipping & operations</a></li>
-                                      <li><a href="transportation.html">Transportation logistics</a></li>
-                                      <li><a href="trucking.html">Trucking</a></li>
-                                    </ul>
-                                  </div>
-                                  <!-- /.col-->
-                                  <div class="col-sm-3 mega-col">
-                                    <ul>
-                                      <li class="dropdown-header">Typography</li>
-                                      <li><a href="#">Bootstrap grids</a></li>
-                                      <li><a href="#">Google fonts</a></li>
-                                      <li><a href="#">Fontawesome icons</a></li>
-                                      <li><a href="#">Flat icons</a></li>
-                                      <li><a href="#">Tabs</a></li>
-                                      <li><a href="#">Button elements</a></li>
-                                    </ul>
-                                  </div>
-                                  <!-- /.col -->	
-                                </div>
-                                <!-- /.row -->
-                              </div>
-                              <!-- /.mega-content -->
-                            </li>
-                          </ul>
-                          <!-- /.dropdown menu -->
-                        </div>
-                        <!-- /.megamenu-inner -->
-                      </div>
-                      <!-- /.megamenu-wrapper -->
-                    </li>
-                    <!-- /MEGA MENU -->
-                    <!-- /Pages -->
-                    <!-- Blog -->
-                    <li class="dropdown">
-                      <a href="#">Blog <span class="fa fa-angle-down"></span></a>
-                      <!-- submenu-wrapper -->
-                      <div class="submenu-wrapper">
-                        <div class="submenu-inner">
-                          <ul class="dropdown-menu">
-                            <li><a href="blog.html">Standard blog</a></li>
-                            <li><a href="blog-single.html">Single blog</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <!-- /submenu-wrapper -->
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-              </div>
-              <!-- /.container -->
-            </nav>
-          </header>
+					<header class="header">
+						<nav class="top-bar">
+							<div class="overlay-bg">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-6 col-xs-12">
+											<!-- <div class="call-to-action">
+												<ul class="list-inline">
+													<li><a href="#"><i class="fa fa-phone"></i> 1-800-987-654</a></li>
+													<li><a href="#"><i class="fa fa-envelope"></i> admin@domain.com</a></li>
+												</ul>
+											</div> -->
+										</div><!-- /.col-sm-6 -->
+
+										<div class="col-sm-6">
+											<div class="topbar-right">
+												<ul class="social-links list-inline pull-right">
+													<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+													<li><a href="https://webmail.arvalogistics.com/"><i class="fa fa-cogs"></i>Webmail</a></li>
+													<li><a href="login.html"><i class="fa fa-truck"></i>Order Update</a></li>
+												</ul>
+											</div><!-- /.social-links -->
+										</div><!-- /.col-sm-6 -->
+									</div><!-- /.row -->
+								</div><!-- /.container -->
+							</div><!-- /.overlay-bg -->
+						</nav><!-- /.top-bar -->
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="container mainnav">
+								<div class="navbar-header">
+									<h1 class="logo"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Arva logistics"></a></h1>
+									<!-- offcanvas-trigger -->
+									<button type="button" class="navbar-toggle collapsed pull-right visible-xs" >
+										<span class="sr-only">Toggle navigation</span>
+										<i class="fa fa-bars"></i>
+									</button>
+								</div>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse navbar-collapse">
+									<ul class="nav navbar-nav navbar-right">
+										<!-- Pages -->
+										<li class="active"><a href="about.html">About Us</a>
+										</li>
+										<!-- /Pages -->
+										<!-- Services -->
+										<li class="dropdown">
+											<a href="#">Services <span class="fa fa-angle-down"></span></a>
+											<!-- submenu-wrapper -->
+											<div class="submenu-wrapper">
+												<div class="submenu-inner">
+													<ul class="dropdown-menu">
+														<li><a href="trucking.html">Trucking</a></li>
+														<li><a href="moving.html">Moving & storage</a></li>
+														<li><a href="transportation.html">Transportation logistics</a></li>
+													</ul>
+												</div>
+											</div>
+											<!-- /submenu-wrapper -->
+										</li>
+										<!-- /Services -->
+										<!-- Utilities -->
+										<li class="dropdown">
+											<a href="#">Utilities <span class="fa fa-angle-down"></span></a>
+											<!-- submenu-wrapper -->
+											<div class="submenu-wrapper">
+												<div class="submenu-inner">
+													<ul class="dropdown-menu">
+														<li><a href="tracking.html">Track Your Shipment</a></li>
+														<!-- <li><a href="booking.html">Book Your Consignment</a></li> -->
+														<li><a href="calculate.html">Calculate Rate</a></li>
+													</ul>
+												</div>
+											</div>
+											<!-- /submenu-wrapper -->
+										</li>
+										<!-- /Services -->
+										<!-- /Pages -->
+										<li><a href="contact.html">Contact Us</a></li>
+									</ul>
+								</div>
+								<!-- /.navbar-collapse -->
+							</div>
+							<!-- /.container -->
+						</nav>
+					</header>
           <section class="page-title-section">
             <div class="container">
               <div class="row">
@@ -278,37 +150,10 @@
               <div class="row">
                 <div class="col-md-7">
                   <div class="about-intro">
-                    <h2>Welcome to Transport</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cupiditate temporibus sunt. Accusantium obcaecati, exercitationem enim cupiditate placeat tempora. Quod dolor unde at? Libero doloremque voluptas, cum, cupiditate minima magnam. dolor sit amet, consectetur adipisicing elit. Distinctio cupiditate. dolor sit amet, consectetur adipisicing elit. Distinctio cupiditate. cupiditate. dolor sit amet, consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cupiditate temporibus sunt. Accusantium obcaecati, exercitationem enim cupiditate placeat tempora. Quod dolor unde at? Libero doloremque voluptas, cum, cupiditate minima magnam. dolor sit amet, consectetur adipisicing elit. Distinctio cupiditate. dolor sit amet, consectetur adipisicing elit. Distinctio cupiditate.</p>
-                    <div class="company-in-number">
-                      <div class="row">
-                        <div class="col-xs-4 branch clearfix">
-                          <i class="flaticon-international34"></i>
-                          <div class="number-info">
-                            <strong><span class="timer">60</span></strong>
-                            <span class="facts-description">Branch Office</span>
-                          </div>
-                        </div>
-                        <!-- /.col-sm-3 -->
-                        <div class="col-xs-4 employee clearfix">
-                          <i class="flaticon-logistics31"></i>
-                          <div class="number-info">
-                            <strong><span class="timer">3000</span></strong>
-                            <span class="facts-description">Employees</span>
-                          </div>
-                        </div>
-                        <!-- /.col-sm-3 -->
-                        <div class="col-xs-4 delivery clearfix">
-                          <i class="flaticon-logistics20"></i>
-                          <div class="number-info">
-                            <strong><span class="timer">5000</span></strong>
-                            <span class="facts-description">Delivery every year</span>
-                          </div>
-                        </div>
-                        <!-- /.col-sm-3 -->
-                      </div>
-                    </div>
+                    <h2>Welcome to Arva Logistics</h2>
+										<p>Arva Logistics is a company mentored by a team of professionals who have years of experience in running and supporting supply chains of corporations all across the world. Arva has a wide range of network all around Tamilnadu to provide you with the complete logistics and warehousing services under one roof.</p>
+										<p>We specialize in providing flexible logistics solutions that start from the planning stage, and go all the	way to the delivery of your goods</p>
+										<p>Currently we provide transportation services across <strong>Coimbatore-Chennai-Cochin</strong> route and expanding as you read this, across Tamilnadu</p>
                   </div>
                   <!-- /.about-intro -->
                 </div>
@@ -320,67 +165,6 @@
             <!-- /.container -->
           </section>
           <!-- /.about-intro-section -->
-          <!--history-section -->
-          <section class="history-section">
-            <div class="container">
-              <h2>Our History</h2>
-              <p>Quickly e-enable fully tested opportunities and cross-unit interfaces. Quickly empower unique human capital before timely quality vectors. Interactively<br> deploy strategic results after cooperative opportunities. Enthusiastically envisioneer frictionless scenarios without market-driven architectures.<br> Seamlessly strategize excellent materials whereas competitive channels.</p>
-              <div class="history-timeline">
-                <div id="historyCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#historyCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#historyCarousel" data-slide-to="1"></li>
-                    <li data-target="#historyCarousel" data-slide-to="2"></li>
-                  </ol>
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <div class="history-year text-center">
-                        <span class="year">1990</span>
-                        <span class="title">Established</span>
-                      </div>
-                      <div class="history-info">
-                        <h3>Completely parallel task corporate supply chains without business benefits.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus explicabo ut veniam, beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis minus? beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis. reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam corporis.</p>
-                        <p>Consectetur adipisicing elit. Natus explicabo ut veniam, beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis minus? beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis. reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis.</p>
-                      </div>
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                      <div class="history-year text-center">
-                        <span class="year">1995</span>
-                        <span class="title">Established</span>
-                      </div>
-                      <div class="history-info">
-                        <h3>Completely parallel task corporate supply chains without business benefits.</h3>
-                        <p>Reprehenderit deserunt excepturi nostrum fugit orem ipsum dolor sit amet, consectetur adipisicing elit. Natus explicabo ut veniam, beatae a placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis minus? beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis. reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam corporis.</p>
-                        <p>Natus explicabo ut veniam. Consectetur adipisicing elit. beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis minus? beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis. reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis.</p>
-                      </div>
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                      <div class="history-year text-center">
-                        <span class="year">1999</span>
-                        <span class="title">Established</span>
-                      </div>
-                      <div class="history-info">
-                        <h3>Completely parallel task corporate supply chains without business benefits.</h3>
-                        <p>Excepturi nostrum fugit enderit deserunt excepturi nostrum fugit orem ipsum dolor sit amet, consectetur adipisicing elit. Natus explicabo ut veniam, beatae a placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis minus? beatae a reprehenderit deserunt  placeat omnis. reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam corporis.</p>
-                        <p>Beatae a reprehenderit explicabo ut veniam. Consectetur adipisicing elit. deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis minus? beatae a reprehenderit deserunt excepturi nostrum fugit placeat omnis. reprehenderit deserunt excepturi nostrum fugit placeat omnis adipisci consequuntur ipsam eligendi, vitae animi tenetur corporis.</p>
-                      </div>
-                    </div>
-                    <!-- /.item -->
-                  </div>
-                  <!-- /.carousel-inner -->
-                </div>
-                <!-- /.carousel -->
-              </div>
-              <!-- /.history-timeline -->
-            </div>
-            <!-- /.container -->
-          </section>
-          <!--/.history-section -->
           <!--mission-section -->
           <section class="mission-section section-padding">
             <div class="container">
@@ -388,26 +172,26 @@
                 <div class="col-md-4">
                   <div class="our-values">
                     <h3>Our Values</h3>
-                    <p>Intrinsicly unleash viral opportunities whereas multidisciplinary leadership skills. Authoritatively deliver turnkey web-readiness vis-a-vis backward-compatible intellectual capital. Enthusiastically seize ethical outsourcing rather than 24/365 web-readiness.</p>
-                    <p><strong>Enthusiastically:</strong>  formulate long-term high-impact niche markets after business infomediaries.</p>
-                    <p><strong>Intrinsicly:</strong>  architect cross-media outsourcing for equity invested e-business.</p>
+                    <p><strong>Professionalism: </strong>is at the core of our identity. The appearance of our people and facilities contribute to this identity by visually demonstrating who we are and what we are all about.</p>
+                    <p><strong>Confidence: </strong>We must believe to achieve, not only in ourselves, but also in our co-workers. Without the trust, self assurance and reliance that our confidence brings us, our network wouldn’t work!</p>
+										<p><strong>Visionary: </strong>A perceptive insight to the changing needs of our clients, service providers and organization. The unwavering understanding of who we are and where we are going, regardless of what others might think.</p>
+										<p><strong>Integrity: </strong>Fairness, honesty and dignity are at the heart of the successful relationships we enjoy with our clients.</p>
                   </div>
                 </div>
                 <!-- /.col-md-4 -->
                 <div class="col-md-4">
                   <div class="our-mission">
                     <h3>Our Mission</h3>
-                    <p>Intrinsicly unleash viral opportunities whereas multidisciplinary leadership skills. Authoritatively deliver turnkey web-readiness vis-a-vis backward</p>
-                    <p>Intrinsicly unleash viral opportunities whereas multidisciplinary leadership skills. Authoritatively deliver turnkey web-readiness vis-a-vis backward</p>
-                    <p>Intrinsicly unleash viral opportunities whereas multidisciplinary leadership skills. Authoritatively deliver turnkey web-readiness vis-a-vis backward</p>
+                    <p>To deliver best-in-class service to each of our customers and ensures that every freight move is optimized and tendered at the lowest cost, meeting service requirements while providing increased visibility through tracking, administration and reporting.</p>
+										<p>Experience, Capacity and Flexibility; Arva Logistics provides everything your business needs to gain a competitive edge in today’s rapidly changing transportation environment.</p>
                   </div>
                 </div>
                 <!-- /.col-md-4 -->
                 <div class="col-md-4">
                   <div class="our-values">
-                    <h3>Our Vission</h3>
-                    <p>Intrinsicly unleash viral opportunities whereas multidisciplinary leadership skills. Authoritatively deliver turnkey web-readiness vis-a-vis backward-compatible intellectual capital. Enthusiastically seize ethical outsourcing rather than 24/365 web-readiness. Enthusiastically formulate long-term high-impact niche markets after business infomediaries.</p>
-                    <p>Intrinsicly unleash viral opportunities whereas multidisciplinary leadership skills. Authoritatively deliver turnkey web-readiness vis-a-vis backward</p>
+                    <h3>Our Vision</h3>
+                    <p>Transportation with ease</p>
+                    <p>Simplicity at each step.</p>
                   </div>
                 </div>
                 <!-- /.col-md-4 -->
@@ -416,79 +200,7 @@
             </div>
             <!-- /.container -->
           </section>
-          <!--/.history-section -->
-          <!--annual-report-section -->
-          <section class="annual-report-section">
-            <div class="container">
-              <div class="text-center">
-                <h2 class="section-title">Annual Financial Report</h2>
-                <span class="section-sub">1990 to 2015 Annual report are available for download</span>
-              </div>
-              <div class="annual-report-carousel">
-                <div id="reportCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#reportCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#reportCarousel" data-slide-to="1"></li>
-                    <li data-target="#reportCarousel" data-slide-to="2"></li>
-                  </ol>
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <div class="annual-report clearfix">
-                        <div class="report-thumb">
-                          <img src="img/annual-thumb.jpg" alt="">
-                        </div>
-                        <div class="report-info">
-                          <h3>Annual Report 2015</h3>
-                          <p>Rapidiously actualize multidisciplinary collaboration and idea-sharing whereas installed base action items. Credibly plagiarize tactical outsourcing for progressive products. Quickly redefine corporate strategic theme areas through premium paradigms. Monotonectally promote fully researched schemas whereas process-centric e-business. Holisticly enable bleeding-edge e-services and cross-platform architectures.</p>
-                          <p>Holisticly maintain web-enabled mindshare vis-a-vis open-source experiences. Objectively exploit cross functional quality vectors vis-a-vis interactive resources. Monotonectally architect professional schemas whereas high-quality materials. Compellingly synthesize reliable initiatives with value-added technologies. Progressively syndicate ethical portals rather than technically sound opportunities.</p>
-                          <a href="#" class="btn btn-primary">Download Report <i class="fa fa-download"></i></a>
-                        </div>
-                      </div>
-                      <!-- /.annual-report -->
-                    </div>
-                    <!--/.item -->
-                    <div class="item">
-                      <div class="annual-report clearfix">
-                        <div class="report-thumb">
-                          <img src="img/annual-thumb.jpg" alt="">
-                        </div>
-                        <div class="report-info">
-                          <h3>Annual Report 2015</h3>
-                          <p>Rapidiously actualize multidisciplinary collaboration and idea-sharing whereas installed base action items. Credibly plagiarize tactical outsourcing for progressive products. Quickly redefine corporate strategic theme areas through premium paradigms. Monotonectally promote fully researched schemas whereas process-centric e-business. Holisticly enable bleeding-edge e-services and cross-platform architectures.</p>
-                          <p>Holisticly maintain web-enabled mindshare vis-a-vis open-source experiences. Objectively exploit cross functional quality vectors vis-a-vis interactive resources. Monotonectally architect professional schemas whereas high-quality materials. Compellingly synthesize reliable initiatives with value-added technologies. Progressively syndicate ethical portals rather than technically sound opportunities.</p>
-                          <a href="#" class="btn btn-primary">Download Report <i class="fa fa-download"></i></a>
-                        </div>
-                      </div>
-                      <!-- /.annual-report -->
-                    </div>
-                    <!--/.item -->
-                    <div class="item">
-                      <div class="annual-report clearfix">
-                        <div class="report-thumb">
-                          <img src="img/annual-thumb.jpg" alt="">
-                        </div>
-                        <div class="report-info">
-                          <h3>Annual Report 2015</h3>
-                          <p>Rapidiously actualize multidisciplinary collaboration and idea-sharing whereas installed base action items. Credibly plagiarize tactical outsourcing for progressive products. Quickly redefine corporate strategic theme areas through premium paradigms. Monotonectally promote fully researched schemas whereas process-centric e-business. Holisticly enable bleeding-edge e-services and cross-platform architectures.</p>
-                          <p>Holisticly maintain web-enabled mindshare vis-a-vis open-source experiences. Objectively exploit cross functional quality vectors vis-a-vis interactive resources. Monotonectally architect professional schemas whereas high-quality materials. Compellingly synthesize reliable initiatives with value-added technologies. Progressively syndicate ethical portals rather than technically sound opportunities.</p>
-                          <a href="#" class="btn btn-primary">Download Report <i class="fa fa-download"></i></a>
-                        </div>
-                      </div>
-                      <!-- /.annual-report -->
-                    </div>
-                    <!--/.item -->
-                  </div>
-                  <!-- /.carousel-inne -->
-                </div>
-                <!--/.carousel -->
-              </div>
-              <!-- /.annual-report-carousel -->
-            </div>
-            <!--/.container -->
-          </section>
-          <!--/.annual-report-section -->
+          <!--/.mission-section -->
           <!-- cta start -->
           <section class="cta-section">
             <div class="container text-center">
@@ -562,91 +274,79 @@
           <!-- cta end -->
           <!-- footer-widget-section start -->
           <section class="footer-widget-section section-padding">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-3 col-md-offset-1 col-sm-4">
-                  <div class="footer-widget">
-                    <h3>Place &amp; Contact</h3>
-                    <address>
-                      384 Maple Circle<br>
-                      Simi Valley, Nevada 47424<br>
-                      <!-- Google Map Modal Trigger -->
-                      <button type="button" class="modal-map" data-toggle="modal" data-target="#cssMapModal">Location  Map</button>
-                      <span class="tel">(554) 616-9926</span>
-                    </address>
-                    <!-- Modal -->
-                    <div class="modal fade" id="cssMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Our Location</h4>
-                          </div>
-                          <div class="modal-body">
-                            <div id="googleMap"></div>
-                          </div>
-                        </div>
-                        <!-- /.modal-content -->
-                      </div>
-                      <!-- /.modal-dialog -->
-                    </div>
-                    <!-- End Modal -->
-                  </div>
-                  <!-- /.footer-widget -->
-                </div>
-                <!-- /.col-md-4 -->
-                <div class="col-md-3 col-sm-4">
-                  <div class="footer-widget">
-                    <h3>About Transport</h3>
-                    <ul>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="service.html">Service</a></li>
-                      <li><a href="our-people.html">Our people</a></li>
-                      <li><a href="career.html">Career</a></li>
-                      <li><a href="faq.html">FAQ Page</a></li>
-                    </ul>
-                  </div>
-                  <!-- /.footer-widget -->
-                </div>
-                <!-- /.col-md-4 -->
-                <div class="col-md-4 col-sm-4">
-                  <div class="footer-widget">
-                    <h3>Stay in Touch</h3>
-                    <p>Enter your email address to receive news &amp; offers from us</p>
-                    <form class="newsletter-form">
-                      <div class="form-group">
-                        <label class="sr-only" for="InputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail1" placeholder="Your email address">
-                        <button type="submit" class="">Send &nbsp;<i class="fa fa-angle-right"></i></button>
-                      </div>
-                    </form>
-                  </div>
-                  <!-- /.footer-widget -->
-                </div>
-                <!-- /.col-md-4 -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.container -->
-          </section>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 col-md-offset-1 col-sm-4">
+									<div class="footer-widget">
+										<h3>Place &amp; Contact</h3>
+										<address>
+											384 Maple Circle<br>
+											Simi Valley, Nevada 47424<br>
+											<!-- Google Map Modal Trigger -->
+											<button type="button" class="modal-map" data-toggle="modal" data-target="#cssMapModal">Location  Map</button>
+											<span class="tel">(554) 616-9926</span>
+										</address>
+										<!-- Modal -->
+										<div class="modal fade" id="cssMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-dialog modal-lg">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+														<h4 class="modal-title" id="myModalLabel">Our Location</h4>
+													</div>
+													<div class="modal-body">
+														<div id="googleMap"></div>
+													</div>
+												</div>
+												<!-- /.modal-content -->
+											</div>
+											<!-- /.modal-dialog -->
+										</div>
+										<!-- End Modal -->
+									</div>
+									<!-- /.footer-widget -->
+								</div>
+								<!-- /.col-md-4 -->
+								<div class="col-md-3 col-sm-4">
+									<div class="footer-widget">
+										<h3>Services</h3>
+										<ul>
+											<li><a href="trucking.html">Trucking</a></li>
+											<li><a href="moving.html">Moving & storage</a></li>
+											<li><a href="transportation.html">Transportation logistics</a></li>
+										</ul>
+									</div>
+									<!-- /.footer-widget -->
+								</div>
+								<!-- /.col-md-4 -->
+								<div class="col-md-4 col-sm-4">
+									<div class="footer-widget">
+										<h3>Utilities</h3>
+										<ul>
+											<li><a href="tracking.html">Track Your Shipment</a></li>
+											<!-- <li><a href="booking.html">Book Your Consignment</a></li> -->
+											<li><a href="calculate.html">Calculate Rate</a></li>
+										</ul>
+									</div>
+									<!-- /.footer-widget -->
+								</div>
+								<!-- /.col-md-4 -->
+							</div>
+							<!-- /.row -->
+						</div>
+						<!-- /.container -->
+					</section>
           <!-- /.cta-section -->
           <!-- footer-widget-section end -->
           <!-- copyright-section start -->
           <footer class="copyright-section">
-            <div class="container text-center">
-              <div class="footer-menu">
-                <ul>
-                  <li><a href="#">Privacy &amp; Cookies</a></li>
-                  <li><a href="#">Terms &amp; Conditions</a></li>
-                  <li><a href="#">Accessibility</a></li>
-                </ul>
-              </div>
-              <div class="copyright-info">
-                <span>Copyright © 2015 Unship. All Rights Reserved. Designed by <a href="https://uicookies.com">uiCookies</a><br> Proudly powered by <a href="http://www.w3schools.com/html/html5_intro.asp">HTML5</a> and <a href="getbootstrap.com">Bootstrap3</a></span>
-              </div>
-            </div>
-            <!-- /.container -->
-          </footer>
+						<div class="container text-center">
+							<div class="copyright-info">
+								<span>Copyright © 2018 Arva Logistics. All Rights Reserved. Designed by <a href="https://uicookies.com">uiCookies</a></span>
+							</div>
+						</div>
+						<!-- /.container -->
+					</footer>
           <!-- copyright-section end -->
         </div>
         <!-- .st-content -->
@@ -654,68 +354,35 @@
       <!-- .st-pusher -->
       <!-- OFFCANVAS MENU -->
       <div class="offcanvas-menu offcanvas-effect">
-        <div class="offcanvas-wrap">
-          <div class="off-canvas-header">
-            <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
-          </div>
-          <ul id ="offcanvasMenu" class="list-unstyled visible-xs visible-sm">
-            <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-            <li>
-              <a href="#">Pages</a>
-              <ul>
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="our-people.html">Our people</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="faq.html">FAQ Page</a></li>
-                <li><a href="typography.html">Typography</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Services</a>
-              <ul>
-                <li><a href="air.html">Air transportation</a></li>
-                <li><a href="marine.html">Marine transportation</a></li>
-                <li><a href="moving.html">Moving &amp; storage</a></li>
-                <li><a href="shipping.html">Shipping &amp; operations</a></li>
-                <li><a href="transportation.html">Transportation logistics</a></li>
-                <li><a href="trucking.html">Trucking</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-              <ul>
-                <li>
-                  <a href="blog.html">Standard blog</a>
-                </li>
-                <li>
-                  <a href="blog-single.html">Single blog</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="typography.html">Typography</a></li>
-          </ul>
-          <div class="offcanvas-widgets hidden-sm hidden-xs">
-            <div id="twitterWidget">
-              <h2>Tweeter feed</h2>
-              <div class="twitter-widget"></div>
-            </div>
-            <div class="newsletter-widget">
-              <h2>Stay in Touch</h2>
-              <p>Enter your email address to receive news &amp; offers from us</p>
-              <form class="newsletter-form">
-                <div class="form-group">
-                  <label class="sr-only" for="InputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="InputEmail2" placeholder="Your email address">
-                  <button type="submit" class="btn">Send &nbsp;<i class="fa fa-angle-right"></i></button>
-                </div>
-              </form>
-            </div>
-            <!-- newsletter-widget -->
-          </div>
-        </div>
-      </div>
+				<div class="offcanvas-wrap">
+					<div class="off-canvas-header">
+						<button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
+					</div>
+					<ul id ="offcanvasMenu" class="list-unstyled">
+						<li><a href="index.html">Home</a></li>
+						<li class="active">
+							<a href="about.html">About Us<span class="sr-only">(current)</span></a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+							<ul>
+								<li><a href="trucking.html">Trucking</a></li>
+								<li><a href="moving.html">Moving &amp; storage</a></li>
+								<li><a href="transportation.html">Transportation logistics</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Utilities</a>
+							<ul>
+								<li><a href="tracking.html">Track Your Shipment</a></li>
+								<!-- <li><a href="booking.html">Book Your Consignment</a></li> -->
+								<li><a href="calculate.html">Calculate Rate</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
       <!-- .offcanvas-menu -->
     </div>
     <!-- /st-container -->
@@ -731,26 +398,14 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- owl.carousel -->
     <script src="owl.carousel/owl.carousel.min.js"></script>
-    <!-- Magnific-popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
     <!-- Offcanvas Menu -->
     <script src="js/hippo-offcanvas.js"></script>
-    <!-- inview -->
-    <script src="js/jquery.inview.min.js"></script>
     <!-- stellar -->
     <script src="js/jquery.stellar.js"></script>
-    <!-- countTo -->
-    <script src="js/jquery.countTo.js"></script>
-    <!-- classie -->
-    <script src="js/classie.js"></script>
-    <!-- selectFx -->
-    <script src="js/selectFx.js"></script>
     <!-- sticky kit -->
     <script src="js/jquery.sticky-kit.min.js"></script>
     <!-- GOGLE MAP -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <!--TWITTER FETCHER-->
-    <script src="js/twitterFetcher_min.js"></script>
     <!-- Custom Script -->
     <script src="js/scripts.js"></script>
   </body>
