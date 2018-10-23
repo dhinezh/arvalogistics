@@ -1493,6 +1493,9 @@ Contact Page
 .flex {
   display: flex;
 }
+.flex-grow-1 {
+  flex-grow: 1;
+}
 .align-center {
   align-items: center;
   justify-content: center;
@@ -1558,6 +1561,13 @@ Contact Page
 }
 .mrg-top-0 {
   margin-top: 0!important;
+}
+.mrg-lft-rt15 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.border-radius4 {
+  border-radius: 4px;
 }
 .list-items {
   list-style-type: disc;
