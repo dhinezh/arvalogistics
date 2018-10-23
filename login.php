@@ -23,7 +23,7 @@
     }
 
     if ( ) {
-        $result = array( 'response' => 'success', 'message'=>'<strong>Login sucessfull!</strong>' );
+        
     } else {
         $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong> Username/password is wrong.'  );
     }
