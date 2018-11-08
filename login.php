@@ -22,10 +22,10 @@
         die;
     }
 
-    if ( ) {
+    if ( validate ) {
         
     } else {
-        $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong> Username/password is wrong.'  );
+        $result = array( 'response' => 'error', 'message'=>'Wrong Username/password');
     }
 
     echo json_encode( $result );
