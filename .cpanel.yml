@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/arvalogi/public_html/
-    - export SOURCEPATH=/home/arvalogi/repositories/arvalogistics
-    - /bin/cp $SOURCEPATH $DEPLOYPATH
