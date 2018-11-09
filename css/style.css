@@ -1727,6 +1727,10 @@ body {
   .flex-column-xs {
     flex-direction: column;
   }
+  .mrg-btm30-xs {
+    margin: 0;
+    margin-bottom: 30px;
+  }
   .align-center {
     align-items: initial;
   }
